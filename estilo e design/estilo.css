@@ -1,0 +1,57 @@
+
+body{
+  margin: 0;
+ background-image: url('fundo.png');
+
+}
+
+.titulo{
+  font-family:Alphacorsa ;
+  font-size: 30px;
+  color: white;
+  text-align: center;
+  background-color: blueviolet;
+  padding: 20px 20px;
+}
+
+
+.topics{
+  display: flex;
+  justify-content: center;
+  gap: 230px;
+  background-color: blueviolet;
+  color: beige;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  
+}
+
+
+.textos{
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+
+
+  background-color: blueviolet;
+  width: 800px;
+  height: 400px;
+  padding: 10px;
+  overflow: auto;
+  word-wrap: break-word;
+  box-sizing: border-box;
+  border-radius: 8px;
+
+  font-family: bebas neue;
+  text-align: center;
+  font-size: 20px;
+  color: antiquewhite;
+  
+margin: 0 auto;
+
+}
+
