@@ -25,9 +25,13 @@ body{
   border: none;
   border-radius: 5px;
   cursor: pointer;
+  transition: background-color 0.10s ease;
   
 }
+.topics :hover{
 
+  background-color: rgb(86, 9, 158);
+}
 
 .textos{
 
@@ -48,7 +52,7 @@ body{
 
   font-family: bebas neue;
   text-align: center;
-  font-size: 40px;
+  font-size: 30px;
   color: antiquewhite;
   
 margin: 0 auto;
