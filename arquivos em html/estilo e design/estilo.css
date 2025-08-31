@@ -132,6 +132,25 @@ margin: 0 auto;
 margin: 0 auto;
 }
 
+.textos_5{
+
+  background-color: blueviolet;
+  width: 400px;
+  height: 160px;
+  padding: 10px;
+  overflow: auto;
+  word-wrap: break-word;
+  box-sizing: border-box;
+  border-radius: 8px;
+
+  font-family: bebas neue;
+  text-align: center;
+  font-size: 30px;
+  color: antiquewhite;
+
+margin: 0 auto;
+}
+
 form {
   max-width: 400px;
   margin: 30px auto;
