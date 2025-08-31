@@ -112,3 +112,116 @@ margin: 0 auto;
   color: antiquewhite;
 
 }
+
+.textos_4{
+
+  background-color: blueviolet;
+  width: 400px;
+  height: 200px;
+  padding: 10px;
+  overflow: auto;
+  word-wrap: break-word;
+  box-sizing: border-box;
+  border-radius: 8px;
+
+  font-family: bebas neue;
+  text-align: center;
+  font-size: 30px;
+  color: antiquewhite;
+
+margin: 0 auto;
+}
+
+form {
+  max-width: 400px;
+  margin: 30px auto;
+  padding: 20px;
+  border: 2px solid blueviolet;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+  font-family: Arial, sans-serif;
+}
+
+form label {
+  display: block;
+  margin-bottom: 6px;
+  font-weight: bold;
+  color: #333;
+}
+
+form input[type="text"],
+form input[type="email"] {
+  width: 100%;
+  padding: 8px 10px;
+  margin-bottom: 15px;
+  border: 1.5px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+  font-size: 16px;
+  transition: border-color 0.3s ease;
+}
+
+form input[type="text"]:focus,
+form input[type="email"]:focus {
+  border-color: blueviolet;
+  outline: none;
+}
+
+form input[type="submit"] {
+  background-color: blueviolet;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+form input[type="submit"]:hover {
+  background-color: blueviolet;
+}
+
+form select {
+  width: 100%;
+  padding: 8px 10px;
+  margin-bottom: 15px;
+  border: 1.5px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  background-color: rgb(255, 255, 255);
+  box-sizing: border-box;
+  transition: border-color 0.3s ease;
+}
+
+form select:focus {
+  border-color: #c300ff;
+  outline: none;
+}
+
+  .mensagem-agradecimento {
+    max-width: 600px;
+    margin: 30px auto;
+    padding: 25px 30px;
+    background: linear-gradient(135deg, #000000, blueviolet);
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #ffffff;
+  }
+
+  .mensagem-agradecimento h2 {
+    margin-bottom: 15px;
+    font-size: 1.8rem;
+    font-weight: 700;
+  }
+
+  .mensagem-agradecimento p {
+    font-size: 1.1rem;
+    margin-bottom: 12px;
+  }
+
+  .mensagem-agradecimento p strong {
+    color: #ffffff;
+  }
