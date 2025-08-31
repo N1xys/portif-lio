@@ -59,3 +59,38 @@ margin: 0 auto;
 
 }
 
+.textos_2{
+
+  background-color: blueviolet;
+  width: 400px;
+  height: 500px;
+  padding: 10px;
+  overflow: auto;
+  word-wrap: break-word;
+  box-sizing: border-box;
+  border-radius: 8px;
+
+  font-family: bebas neue;
+  text-align: center;
+  font-size: 30px;
+  color: antiquewhite;
+
+}
+
+.textos_3{
+
+  background-color: blueviolet;
+  width: 400px;
+  height: 350px;
+  padding: 10px;
+  overflow: auto;
+  word-wrap: break-word;
+  box-sizing: border-box;
+  border-radius: 8px;
+
+  font-family: bebas neue;
+  text-align: center;
+  font-size: 30px;
+  color: antiquewhite;
+
+}
