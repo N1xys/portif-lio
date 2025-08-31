@@ -59,6 +59,17 @@ margin: 0 auto;
 
 }
 
+.formacao-container{
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 30px;
+  flex-wrap: wrap;
+
+}
+
+
 .textos_2{
 
   background-color: blueviolet;
@@ -74,6 +85,13 @@ margin: 0 auto;
   text-align: center;
   font-size: 30px;
   color: antiquewhite;
+
+}
+
+.imagem-formacao{
+
+  width: 200 px;
+  border-radius: 10px;
 
 }
 
